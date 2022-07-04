@@ -217,7 +217,12 @@ address {
 .wework .list-item {
   position: relative;
 }
-.wework .area-text {
+
+.wework p {
+  font-weight: 700;
+  line-height: 1.17;
+  text-transform: uppercase;
+  color: var(--white-color);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -225,14 +230,7 @@ address {
   position: absolute;
   bottom: 0;
   width: 100%;
-  padding-top: 27px;
-  padding-bottom: 27px;
-}
-.wework p {
-  font-weight: 700;
-  line-height: 1.17;
-  text-transform: uppercase;
-  color: var(--white-color);
+  height: 70px;
 }
 .team {
   /* font-size: 16px;
